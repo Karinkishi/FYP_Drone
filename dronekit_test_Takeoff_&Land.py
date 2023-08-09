@@ -67,7 +67,7 @@ def arm_and_takeoff(aTargetAltitude):
             break
         time.sleep(1)
 
-arm_and_takeoff(1)
+arm_and_takeoff(1) #meter
 time.sleep(5)
 # Send the land command
 print ("Copter will now land..")
