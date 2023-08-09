@@ -58,12 +58,12 @@ def get_distance_meters(target_latitude,target_longitude,currentLocation):
 
 
 
-arm_and_takeoff(1)
+arm_and_takeoff(1) #meter
 time.sleep(5)
 
 # Go to another waypoint
 target_latitude = 5.148123  # Replace with the desired latitude
-target_longitude = 100.495935
+target_longitude = 100.495935 # Replace with the desired longitude
 # Replace with the desired longitude
 target_altitude = 1.0  # meters
 
